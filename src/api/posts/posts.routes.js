@@ -14,7 +14,7 @@ export default [
       handler: detail,
       config:{
           validate:{
-              params: Schemas.detail              
+              params: Schemas.params
           }
       }
     },
@@ -32,11 +32,7 @@ export default [
         method: 'PUT',
         path: '/posts/{id}',
         handler: update,
-        config:{
-            validate:{
-                payload: Schemas.payload 
-            }
-        }
+        config:{ validate: Schemas.update }
      },
      {
         method: 'DELETE',
@@ -44,7 +40,7 @@ export default [
         handler: destroy,
         config:{
             validate:{
-                params: Schemas.detail
+                params: Schemas.params
             }
         }
      }

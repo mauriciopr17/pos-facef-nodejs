@@ -1,12 +1,13 @@
 import * as Joi from '@hapi/joi';
 
 export const params = Joi.object({
+    postId: Joi.number().required(),
     id: Joi.number().required()
 });
 
 export const payload = Joi.object({
-    title: Joi.string().min(3).max(100).required(),
-    content: Joi.string().min(3).required()
+    name: Joi.string().min(3).max(30).required(),
+    postId: Joi.number().required()
 });
 
 export const update = {
