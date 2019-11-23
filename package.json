@@ -9,14 +9,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://mauriciopr17@bitbucket.org/mauriciopr17/blognodejs.git"
+    //"url": "git+https://mauriciopr17@bitbucket.org/mauriciopr17/blognodejs.git"
+    "url": "git+https://git@github.com:mauriciopr17/pos-facef-nodejs.git"
   },
   "keywords": [
     "blog"
   ],
   "author": "Maurício Pereira Archângelo",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/mauriciopr17/blognodejs#readme",
+  //"homepage": "https://bitbucket.org/mauriciopr17/blognodejs#readme",
+  "homepage": "https://github.com/mauriciopr17/pos-facef-nodejs#readme",
   "dependencies": {
     "@hapi/hapi": "^18.4.0",
     "http-status": "^1.4.0",
